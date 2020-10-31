@@ -63,17 +63,13 @@
       }
       
       .img-fluid1 {
-      border-radius: 8px;
         }
         
          .img-fluid2 {
-      border-radius: 8px;
         }
          .img-fluid3 {
-      border-radius: 8px;
         }
          .img-fluid4{
-      border-radius: 8px;
         }
       
       .subheader {
@@ -129,11 +125,34 @@
              <h1 class="primaryheader"><center>Welcome to my Portfolio!</center></h1>
              
              <div class="row">
- 
-    <div class="col-md-3"><img src="sketch1.png" class="img-fluid img-fluid2" alt="Hand drawn sketch by Sarah Glann"></img></div>
-     <div class="col-md-3"><img src="headshotcropped.png" class="img-fluid img-fluid1" alt="Sarah Glann, Artist and Researcher"></img></div>
-    <div class="col-md-3"><img src="sketch2.png" class="img-fluid img-fluid3" alt="Colored in sketch by Sarah Glann"></img></div>
+    
+    <!--CAROUSEL WITH IMAGES -->
 
+    <div id="#carouselExampleIndicators" class="carouselslide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="col-md-3"><img src="sketch1.png" class="img-fluid img-fluid2" alt="Hand drawn sketch by Sarah Glann"></img></div>
+        <div class="carousel-item">
+          <div class="col-md-3"><img src="headshotcropped.png" class="img-fluid img-fluid1" alt="Sarah Glann, Artist and Researcher"></img></div>
+        <div class="carousel-item">
+          <div class="col-md-3"><img src="sketch2.png" class="img-fluid img-fluid3" alt="Colored in sketch by Sarah Glann"></img></div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  <!--SUBHEADERS-->
              <h2 class="subheader">I am a formally trained researcher and a lifelong artist and designer.</h2>
              <h2 class="subheader">A motivated self-starter with a hunger for knowledge; I'm eager to learn and advance.</h2>
              <h2 class="subheader">Put my artistic passion and communication and research skills to work for your company!</h2>
