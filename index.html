@@ -29,15 +29,14 @@
     <!-- CSS FORMATTING CODE -->
 
     <style>
-        body::after {
-            content: "";
+        .body-image-cover {
             background: url(jumbo2.jpg);
-            opacity: 0.5;
+            opacity: 0.4;
             top: 0;
             left: 0;
             bottom: 0;
             right: 0;
-            position: absolute;
+            position: sticky;
             z-index: -1;
             background-color: #000;
             object-fit: cover;
@@ -158,6 +157,8 @@
 
     <!-- Header Nav Bar -->
 
+    <div class="body-image-cover"></div>
+
     <nav class="navigationbar">
         <div class="container d-flex flex-column flex-md-row justify-content-between">
             <a class="py-2" href="#">
@@ -202,12 +203,12 @@
                 <!-- headshot code -->
 
                 <div class="container-fluid">
-                    <div class="row">
+                    <div class="row headline-paragraph">
                         <div class="col-md-4 col-xs-12">
                             <img src="headshotcropped.png" class="img-fluid rounded photo"
                                 alt="Sarah Glann, Artist and Researcher"></img>
                         </div>
-                        <div class="col-md-8 col-xs-12 headline-paragraph">
+                        <div class="col-md-8 col-xs-12 ">
                             <h2 class="subheader">I am a formally trained researcher and a lifelong artist and designer.
                             </h2>
                             <h2 class="subheader">A motivated self-starter with a hunger for knowledge; I'm eager to
