@@ -1,216 +1,250 @@
 <!doctype html>
-    <html lang="en">
-        <!--HEAD- JS, CSS, IMPORTS GO HERE-->
-    <head>
+<html lang="en">
+<!--HEAD- JS, CSS, IMPORTS GO HERE-->
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-        
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <!-- LINKS TO GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500;600&display=swap" rel="stylesheet">
 
 
     <!-- CSS FORMATTING CODE -->
 
     <style>
-      .body {
-      opacity: 0.6;
-      filter: alpha(opacity=30);
-     }
+        .body {
+            opacity: 0.6;
+            filter: alpha(opacity=30);
         }
-      .navigationbar {
-      font-size: 14pt;
-      font-family: 'Prompt', sans-serif;
-      color: black;
-      margin: auto;
-      padding: 10px;
-      background-color: #f2f2f2;
-;
         }
-      .navheader {
-       font-size: 20pt;
-      font-family: 'Prompt', sans-serif;
-      color:  #f2f2f2;
-      margin: auto;
-      padding: 10px;
-      
+
+        .navigationbar {
+            font-size: 14pt;
+            font-family: 'Prompt', sans-serif;
+            color: black;
+            margin: auto;
+            padding: 10px;
+            background-color: #f2f2f2;
+            ;
         }
-      .aboutme {
-      font-size: 20pt;
-      font-family: 'Prompt', sans-serif;
-      color: #800080;
-      margin: auto;
-      padding: 10px;
+
+        .navheader {
+            font-size: 20pt;
+            font-family: 'Prompt', sans-serif;
+            color: #f2f2f2;
+            margin: auto;
+            padding: 10px;
+
         }
-      
-      .contact {
-      font-size: 20pt;
-      font-family: 'Prompt', sans-serif;
-      color: #800080;
-      margin: auto;
-      padding: 10px;
+
+        .aboutme {
+            font-size: 20pt;
+            font-family: 'Prompt', sans-serif;
+            color: #800080;
+            margin: auto;
+            padding: 10px;
         }
-       
-      .primaryheader {
-      float: left;
-      font-size: 40pt;
-      font-family: 'Prompt', sans-serif;
-      color: black;
-      margin: auto;
-      padding: 10px;
-      }
-      
-      
-          
-      .card1 {
-      float: left;
-      border-radius: 8px;
-      font-size: 14pt;
-      font-family: 'Prompt', sans-serif;
-      color: black;
-      margin: auto;
-      padding: 10px;
-      background-color: #f2f2f2;
-      }
 
-    .card2 {
-      float: left;
-      border-radius: 8px;
-      font-size: 14pt;
-      font-family: 'Prompt', sans-serif;
-      color: #800080;
-      margin: auto;
-      padding: 10px;
-      background-color: #f2f2f2;
-    }
+        .contact {
+            font-size: 20pt;
+            font-family: 'Prompt', sans-serif;
+            color: #800080;
+            margin: auto;
+            padding: 10px;
+        }
 
-      .photo {
-      float: left;   
-      height: 325px;
-      width: 225px;
-      }
+        .primaryheader {
+            float: left;
+            font-size: 40pt;
+            font-family: 'Prompt', sans-serif;
+            color: black;
+            margin: auto;
+            padding: 10px;
+        }
 
-      .subheader {
-      float: left;
-      font-size: 22pt;
-      font-family: 'Prompt', sans-serif;
-      color: #800080;
-      background-color:  #f2f2f2;
-      }
 
-      .display-4 {
-      font-family: 'Prompt', sans-serif;
-      font-size: 38pt;
-      font-style: bold;
-      color: black;
-      }
 
-      .lead {
-      font-family: 'Prompt', sans-serif;
-      font-size: 30pt;
-      font-style: bold;
-      color: black;
-      }
-      </style>
-      </head>
-     
-        <!--BODY - ELEMENTS AND HTML GO HERE-->
-     
-    <body style= "background-image: url(jumbo2.jpg)">
+        .card1 {
+            float: left;
+            border-radius: 8px;
+            font-size: 14pt;
+            font-family: 'Prompt', sans-serif;
+            color: black;
+            margin: auto;
+            padding: 10px;
+            background-color: #f2f2f2;
+        }
+
+        .card2 {
+            float: left;
+            border-radius: 8px;
+            font-size: 14pt;
+            font-family: 'Prompt', sans-serif;
+            color: #800080;
+            margin: auto;
+            padding: 10px;
+            background-color: #f2f2f2;
+        }
+
+        .photo {
+            float: left;
+            height: 325px;
+            width: 225px;
+        }
+
+        .subheader {
+            float: left;
+            font-size: 22pt;
+            font-family: 'Prompt', sans-serif;
+            color: #800080;
+            background-color: #f2f2f2;
+        }
+
+        .display-4 {
+            font-family: 'Prompt', sans-serif;
+            font-size: 38pt;
+            font-style: bold;
+            color: black;
+        }
+
+        .lead {
+            font-family: 'Prompt', sans-serif;
+            font-size: 30pt;
+            font-style: bold;
+            color: black;
+        }
+    </style>
+</head>
+
+<!--BODY - ELEMENTS AND HTML GO HERE-->
+
+<body style="background-image: url(jumbo2.jpg)">
 
     <!--Screen Tab Message -->
 
     <title>Hi, I'm Sarah Glann.</title>
-    
+
     <!-- Header Nav Bar -->
-      
+
     <nav class="navigationbar">
-      <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="py-2" href="#">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
-        </a>
-        <a class="aboutme" href="#">About Me</a>
-        <a class="contact" href="#">Contact</a>
-      </div>
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="d-block mx-auto">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
+                    <line x1="9.69" y1="8" x2="21.17" y2="8"></line>
+                    <line x1="7.38" y1="12" x2="13.12" y2="2.06"></line>
+                    <line x1="9.69" y1="16" x2="3.95" y2="6.06"></line>
+                    <line x1="14.31" y1="16" x2="2.83" y2="16"></line>
+                    <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
+                </svg>
+            </a>
+            <a class="aboutme" href="#">About Me</a>
+            <a class="contact" href="#">Contact</a>
+        </div>
     </nav>
-      
+
     <!-- GRID LAYOUT -->
 
-        <div class="container">
-        <div class="row">
-        <div class="col-md-3">
-    </div>
-         <div class="col-md-9">
-  
-  <!-- JUMBO TRON BANNER -->
-  <div class="jumbotron bg-cover">
     <div class="container">
-      <h1 class="display-4"><center>Sarah Glann</center></h1>
-      <p class="lead"><center>UI/UX Designer</center></p>
-    </div>
-  </div>
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-9">
 
-  <!-- HEADER TEXT AND SUBHEADER -->
+                <!-- JUMBO TRON BANNER -->
+                <div class="jumbotron bg-cover">
+                    <div class="container">
+                        <h1 class="display-4">
+                            <center>Sarah Glann</center>
+                        </h1>
+                        <p class="lead">
+                            <center>UI/UX Designer</center>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- HEADER TEXT AND SUBHEADER -->
 
 
-  <!-- headshot code -->
-  
-  <img src="headshotcropped.png" class="photo" alt="Sarah Glann, Artist and Researcher"></img></div>
-             </div>
+                <!-- headshot code -->
 
-<!-- Subheader Code-->
+                <img src="headshotcropped.png" class="photo" alt="Sarah Glann, Artist and Researcher"></img>
+            </div>
+        </div>
 
-             <h2 class="subheader">I am a formally trained researcher and a lifelong artist and designer.</h2>
-             <h2 class="subheader">A motivated self-starter with a hunger for knowledge; I'm eager to learn and advance.</h2>
-             <h2 class="subheader">Put my artistic passion and communication and research skills to work for your company!</h2>
-             
-  
-  <!-- CERTIFICATION CARDS -->
-  <div class="card" style="width: 18rem;">
-  <img src="/fcc-cert.png" class="card-img-top" alt="...">
-  <div class="card1">
-      <h5 class="card1"><center>Free Code Camp Responsive Web Design Certified</center></h5>
-      <p class="card1"><center>Demonstrated acuity in HTML, CSS, and Responsive Web Design</center></p>
-    <center><a href="https://www.freecodecamp.org/certification/fccdfbaafd5-c086-49cf-b893-425b7a6ca1a0/responsive-web-design" class="btn btn-primary">View on FreeCodeCamp.org</a></center>
-  </div>
-</div>
- </div>
-  </div>
+        <!-- Subheader Code-->
+
+        <h2 class="subheader">I am a formally trained researcher and a lifelong artist and designer.</h2>
+        <h2 class="subheader">A motivated self-starter with a hunger for knowledge; I'm eager to learn and advance.</h2>
+        <h2 class="subheader">Put my artistic passion and communication and research skills to work for your company!
+        </h2>
+
+
+        <!-- CERTIFICATION CARDS -->
+        <div class="card" style="width: 18rem;">
+            <img src="/fcc-cert.png" class="card-img-top" alt="...">
+            <div class="card1">
+                <h5 class="card1">
+                    <center>Free Code Camp Responsive Web Design Certified</center>
+                </h5>
+                <p class="card1">
+                    <center>Demonstrated acuity in HTML, CSS, and Responsive Web Design</center>
+                </p>
+                <center><a
+                        href="https://www.freecodecamp.org/certification/fccdfbaafd5-c086-49cf-b893-425b7a6ca1a0/responsive-web-design"
+                        class="btn btn-primary">View on FreeCodeCamp.org</a></center>
+            </div>
+        </div>
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="/art4.PNG" class="card-img-top" alt="...">
-      <div class="card2">
-          <p class="card2"><center>Art Portfolio</center></p>
-        <center><a href="https://drive.google.com/drive/folders/1zTxaHVtQR0gh06eYP63LuCSjDed5ZMHa?usp=sharing" class="btn btn-primary">View on Google Drive</a></center>
-      </div>
-    </div>
-     </div>
-      </div>
+        <img src="/art4.PNG" class="card-img-top" alt="...">
+        <div class="card2">
+            <p class="card2">
+                <center>Art Portfolio</center>
+            </p>
+            <center><a href="https://drive.google.com/drive/folders/1zTxaHVtQR0gh06eYP63LuCSjDed5ZMHa?usp=sharing"
+                    class="btn btn-primary">View on Google Drive</a></center>
         </div>
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="../../../../assets/js/vendor/popper.min.js"></script>
     <script src="../../../../dist/js/bootstrap.min.js"></script>
     <script src="../../../../assets/js/vendor/holder.min.js"></script>
     <script>
-      Holder.addTheme('thumb', {
-        bg: '#55595c',
-        fg: '#eceeef',
-        text: 'Thumbnail'
-      });
-        </script>
-        </body>
+        Holder.addTheme('thumb', {
+            bg: '#55595c',
+            fg: '#eceeef',
+            text: 'Thumbnail'
+        });
+    </script>
+</body>
+
 </html>
